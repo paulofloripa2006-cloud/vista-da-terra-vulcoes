@@ -1,0 +1,41 @@
+name: Coletor de vulcoes - Vista da Terra
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coletor-vulcoes
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Executar coletor
+        run: python scripts/coletor.py
+
+      - name: Publicar dados atualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualizar dados vulcanicos"
+            git push
+          else
+            echo "Nenhuma alteracao em data/"
+          fi
