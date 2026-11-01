@@ -6,16 +6,16 @@
 # - nunca grava na main, nunca usa force-push;
 # - nao toca data/vulcoes.json nem a live V100.
 #
-# AGENDAMENTO DESATIVADO: so roda pelo botao "Run workflow".
-# Para ativar (somente com autorizacao do Paulo), apagar o '#' das 3 linhas de schedule.
+# AGENDAMENTO ATIVADO com autorizacao do Paulo: a cada hora, minuto 41 UTC.
+# A execucao manual continua disponivel pelo botao "Run workflow".
 
 name: VAAC experimental (isolado)
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   # de hora em hora, minuto 41 UTC (o coletor original roda no minuto 17)
-  #   - cron: '41 * * * *'
+  schedule:
+    # de hora em hora, minuto 41 UTC (o coletor original roda no minuto 17)
+    - cron: '41 * * * *'
 
 permissions:
   contents: write
