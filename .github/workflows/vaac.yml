@@ -1,0 +1,93 @@
+# Vista da Terra — coletor EXPERIMENTAL do NOAA Washington VAAC.
+#
+# Isolado do coletor de vulcoes original (vulcoes.yml / scripts/coletor.py):
+# - grupo de concorrencia proprio;
+# - codigo lido da main, dados gravados SOMENTE na branch vaac-data;
+# - nunca grava na main, nunca usa force-push;
+# - nao toca data/vulcoes.json nem a live V100.
+#
+# AGENDAMENTO DESATIVADO: so roda pelo botao "Run workflow".
+# Para ativar (somente com autorizacao do Paulo), apagar o '#' das 3 linhas de schedule.
+
+name: VAAC experimental (isolado)
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   # de hora em hora, minuto 41 UTC (o coletor original roda no minuto 17)
+  #   - cron: '41 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coletor-vaac-experimental
+  cancel-in-progress: false
+
+jobs:
+  vaac:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Codigo (main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: code
+
+      - name: Dados experimentais (vaac-data)
+        uses: actions/checkout@v4
+        with:
+          ref: vaac-data
+          path: vaacdata
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Testes do coletor (sem rede, com os XML oficiais)
+        working-directory: code
+        run: python -m unittest tests/test_vaac_collector.py
+
+      - name: Coleta VAAC
+        id: coleta
+        run: |
+          set +e
+          python code/scripts/vaac_collector.py \
+            --out vaacdata/vaac_experimental.json \
+            --catalog code/data/gvp_catalogo.json
+          echo "codigo=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Publicar JSON na vaac-data
+        run: bash code/scripts/vaac_publish.sh vaacdata "${{ steps.coleta.outputs.codigo }}"
+
+      - name: Resumo da execucao
+        if: always()
+        run: |
+          python - <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          import json, os
+          p = "vaacdata/vaac_experimental.json"
+          print("## VAAC experimental")
+          if not os.path.exists(p):
+              print("JSON nao encontrado.")
+              raise SystemExit
+          d = json.load(open(p))
+          c = d.get("collector", {})
+          print("- Resultado: **%s**" % c.get("result"))
+          print("- Erro: %s" % (c.get("error") or "nenhum"))
+          print("- Ultima coleta bem-sucedida: %s" % c.get("lastSuccessUtc"))
+          print("- Contagens: `%s`" % json.dumps(c.get("counts", {}), ensure_ascii=False))
+          for k, r in d.get("active", {}).items():
+              print("- Ativo: %s | %s | desenhavel=%s | expira %s" % (
+                  r["volcano"]["name"], r["cloud"]["kind"], r["cloud"]["displayable"],
+                  r["advisory"]["expiresAtUtc"]))
+          for r in d.get("rejected", [])[-10:]:
+              print("- Rejeitado: %s — %s" % (r.get("xmlUrl", "").rsplit("/", 1)[-1], r.get("reason")))
+          EOF
+
+      - name: Sinalizar falha da coleta
+        if: steps.coleta.outputs.codigo != '0'
+        run: |
+          echo "Coletor terminou com codigo ${{ steps.coleta.outputs.codigo }} (JSON valido publicado com o erro registrado, exceto codigo 2)."
+          exit 1
