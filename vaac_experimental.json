@@ -1,0 +1,25 @@
+{
+  "schema": "vaac-exp-1",
+  "experimental": true,
+  "source": {
+    "name": "NOAA Washington VAAC",
+    "url": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/messages.html"
+  },
+  "collector": {
+    "lastAttemptUtc": null,
+    "lastSuccessUtc": null,
+    "result": "NAO_INICIADO"
+  },
+  "rules": {
+    "toleranceHours": 3,
+    "acceptedIWXXM": [
+      "3.0"
+    ],
+    "seenRetentionDays": 15
+  },
+  "active": {},
+  "closed": [],
+  "rejected": [],
+  "seen": {},
+  "lastState": {}
+}
