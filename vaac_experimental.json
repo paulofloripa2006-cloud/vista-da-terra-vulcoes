@@ -113,142 +113,47 @@
    },
    "volcanoKey": "341090"
   },
-  "342030": {
-   "advisory": {
-    "ashEmissionEndedReported": false,
-    "bulletinBBB": null,
-    "bulletinGeneratedUtc": "2026-11-06T15:33:02Z",
-    "bulletinId": "A_LUXX23KNES061531_C_KNES_20261106153302.xml",
-    "centre": "WASHINGTON",
-    "eruptionDetailsRaw": "NEW VA EMS",
-    "expiresAtUtc": "2026-11-07T00:30:00Z",
-    "expiryFallback": false,
-    "fetchedUtc": "2026-11-06T21:03:36Z",
-    "forecastsIgnored": 3,
-    "infoSource": "GOES-19. WEBCAM. NWP MODELS.",
-    "issueUtc": "2026-11-06T15:31:00Z",
-    "nextAdvisoryNilReason": null,
-    "nextAdvisoryQualifier": "before",
-    "nextAdvisoryState": "programado",
-    "nextAdvisoryUtc": "2026-11-06T21:30:00Z",
-    "noFurtherAdvisoryScheduled": false,
-    "number": "2026/663",
-    "observationUtc": "2026-11-06T15:00:00Z",
-    "remarksRaw": "VA EMS OBS IN STLT AND WEBCAM MVG SW FM SUMMIT. A MORE SSW MVMT EXP THRU T+6. FL AND FCST BASED ON WEBCAM AND NWP MDLS. ...EVANS",
-    "replaces": "WASHINGTON|342030|2026/662|2026-11-05T07:23:00Z|NORMAL|-|A_LUXX23KNES050723_C_KNES_20261105072536.xml",
-    "reportStatus": "NORMAL",
-    "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX23_20261106_1531.xml"
-   },
-   "cloud": {
-    "displayable": false,
-    "displayableUntilUtc": "2026-11-06T21:00:00Z",
-    "isEstimated": false,
-    "kind": "observada",
-    "layers": [
-     {
-      "areaKm2": 72.086,
-      "crossesDateline": false,
-      "lower": "GND",
-      "lowerFL": 0.0,
-      "motionDeg": 225.0,
-      "polygon": [
-       [
-        14.767,
-        -91.533
-       ],
-       [
-        14.717,
-        -91.667
-       ],
-       [
-        14.667,
-        -91.617
-       ],
-       [
-        14.733,
-        -91.533
-       ],
-       [
-        14.767,
-        -91.533
-       ]
-      ],
-      "speedKt": 5.0,
-      "upperFL": 130.0,
-      "vertices": 4
-     }
-    ],
-    "observationAgeAtIssueMin": 31,
-    "positionMeaning": "posicao no horario da observacao, sem extrapolacao",
-    "rejectedLayerReasons": [],
-    "status": "IDENTIFIABLE",
-    "warnings": [
-     "observacao_envelhecida"
-    ]
-   },
-   "key": "WASHINGTON|342030|2026/663|2026-11-06T15:31:00Z|NORMAL|-|A_LUXX23KNES061531_C_KNES_20261106153302.xml",
-   "volcano": {
-    "area": "GUATEMALA",
-    "gvp": "342030",
-    "gvpStatus": "identidade_conferida",
-    "gvpValid": true,
-    "identity": {
-     "catalogName": "Santa Maria",
-     "distanceKm": 0.8,
-     "nameMatch": true
-    },
-    "lat": 14.75,
-    "lon": -91.55,
-    "name": "SANTA MARIA 342030",
-    "summit": {
-     "meters": 3745,
-     "uom": "[ft_i]",
-     "value": 12287.0
-    }
-   },
-   "volcanoKey": "342030"
-  },
   "342090": {
    "advisory": {
     "ashEmissionEndedReported": false,
     "bulletinBBB": null,
-    "bulletinGeneratedUtc": "2026-11-06T17:38:38Z",
-    "bulletinId": "A_LUXX22KNES061735_C_KNES_20261106173838.xml",
+    "bulletinGeneratedUtc": "2026-11-06T23:16:59Z",
+    "bulletinId": "A_LUXX22KNES062315_C_KNES_20261106231659.xml",
     "centre": "WASHINGTON",
     "eruptionDetailsRaw": "VA EM OBSD",
-    "expiresAtUtc": "2026-11-07T02:30:00Z",
+    "expiresAtUtc": "2026-11-07T08:15:00Z",
     "expiryFallback": false,
-    "fetchedUtc": "2026-11-06T21:03:36Z",
+    "fetchedUtc": "2026-11-07T01:11:54Z",
     "forecastsIgnored": 3,
     "infoSource": "GOES-19. WEBCAM. NWP MODELS.",
-    "issueUtc": "2026-11-06T17:35:00Z",
+    "issueUtc": "2026-11-06T23:15:00Z",
     "nextAdvisoryNilReason": null,
     "nextAdvisoryQualifier": "before",
     "nextAdvisoryState": "programado",
-    "nextAdvisoryUtc": "2026-11-06T23:30:00Z",
+    "nextAdvisoryUtc": "2026-11-07T05:15:00Z",
     "noFurtherAdvisoryScheduled": false,
-    "number": "2026/1289",
-    "observationUtc": "2026-11-06T17:10:00Z",
-    "remarksRaw": "VA EM OBSD IN SAT AND WEBCAM. VA CLD EXTD APRX 20 NM SSE FM SUMMIT. NWP MDL FCST SLIGHTLY VEERING THRU T+18HRS. ...ZENG",
-    "replaces": "WASHINGTON|342090|2026/1288|2026-11-06T11:39:00Z|NORMAL|-|A_LUXX22KNES061139_C_KNES_20261106114135.xml",
+    "number": "2026/1290",
+    "observationUtc": "2026-11-06T22:50:00Z",
+    "remarksRaw": "FRQ VA EM OBSD IN WEBCAM. VA EM NOT OBSD IN SAT DUE TO MET CLD. VA FL/DIR BASED ON PREV VAA AND MDL GUIDANCE. NWP MDL FCST VEERING THRU T+18HRS. ...ZENG",
+    "replaces": "WASHINGTON|342090|2026/1289|2026-11-06T17:35:00Z|NORMAL|-|A_LUXX22KNES061735_C_KNES_20261106173838.xml",
     "reportStatus": "NORMAL",
-    "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX22_20261106_1735.xml"
+    "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX22_20261106_2315.xml"
    },
    "cloud": {
     "displayable": true,
-    "displayableUntilUtc": "2026-11-06T23:10:00Z",
-    "isEstimated": false,
-    "kind": "observada",
+    "displayableUntilUtc": "2026-11-07T04:50:00Z",
+    "isEstimated": true,
+    "kind": "estimada",
     "layers": [
      {
-      "areaKm2": 283.29,
+      "areaKm2": 137.474,
       "crossesDateline": false,
       "lower": "GND",
       "lowerFL": 0.0,
       "motionDeg": 180.0,
       "polygon": [
        [
-        14.45,
+        14.467,
         -90.867
        ],
        [
@@ -256,15 +161,15 @@
         -90.884
        ],
        [
-        14.133,
-        -90.884
+        14.283,
+        -90.917
        ],
        [
-        14.167,
-        -90.75
+        14.3,
+        -90.8
        ],
        [
-        14.45,
+        14.467,
         -90.867
        ]
       ],
@@ -279,7 +184,7 @@
     "status": "IDENTIFIABLE",
     "warnings": []
    },
-   "key": "WASHINGTON|342090|2026/1289|2026-11-06T17:35:00Z|NORMAL|-|A_LUXX22KNES061735_C_KNES_20261106173838.xml",
+   "key": "WASHINGTON|342090|2026/1290|2026-11-06T23:15:00Z|NORMAL|-|A_LUXX22KNES062315_C_KNES_20261106231659.xml",
    "volcano": {
     "area": "GUATEMALA",
     "gvp": "342090",
@@ -398,74 +303,74 @@
    "advisory": {
     "ashEmissionEndedReported": false,
     "bulletinBBB": null,
-    "bulletinGeneratedUtc": "2026-11-06T19:06:08Z",
-    "bulletinId": "A_LUXX21KNES061904_C_KNES_20261106190608.xml",
+    "bulletinGeneratedUtc": "2026-11-07T00:55:55Z",
+    "bulletinId": "A_LUXX21KNES070053_C_KNES_20261107005555.xml",
     "centre": "WASHINGTON",
-    "eruptionDetailsRaw": "VA EM REPORTED",
-    "expiresAtUtc": "2026-11-07T04:00:00Z",
+    "eruptionDetailsRaw": "FRQ VA EM OBSD",
+    "expiresAtUtc": "2026-11-07T10:00:00Z",
     "expiryFallback": false,
-    "fetchedUtc": "2026-11-06T21:03:36Z",
+    "fetchedUtc": "2026-11-07T01:11:54Z",
     "forecastsIgnored": 3,
-    "infoSource": "GOES-19. VONA. NWP MODELS. GEOPHYSICAL INST.",
-    "issueUtc": "2026-11-06T19:04:00Z",
+    "infoSource": "GOES-19. VONA. WEBCAM. NWP MODELS. GEOPHYSICAL INST.",
+    "issueUtc": "2026-11-07T00:53:00Z",
     "nextAdvisoryNilReason": null,
     "nextAdvisoryQualifier": "before",
     "nextAdvisoryState": "programado",
-    "nextAdvisoryUtc": "2026-11-07T01:00:00Z",
+    "nextAdvisoryUtc": "2026-11-07T07:00:00Z",
     "noFurtherAdvisoryScheduled": false,
-    "number": "2026/1177",
-    "observationUtc": "2026-11-06T18:30:00Z",
-    "remarksRaw": "VONA REPORTED VA EM. VA EM/CLD NOT OBSD IN SAT DUE TO MET CLD. VA FL/DIR BASED RPRT AND MDL GUIDANCE. NWP MDL FCST VEERING THRU T+12HRS. ...ZENG",
-    "replaces": "WASHINGTON|352010|2026/1177|2026-11-06T18:55:00Z|NORMAL|-|A_LUXX21KNES061855_C_KNES_20261106185654.xml",
+    "number": "2026/1178",
+    "observationUtc": "2026-11-07T00:30:00Z",
+    "remarksRaw": "FRQ VA EM OBSD IN WEBCAM. VA EM/CLD NOT OBSD IN SAT DUE TO MET CLD. VONA RECEIVED EARLIER. VA FL/DIR BASED ON RPRT. NWP MDL FCST SLIGHTLY VEERING THRU T+18HRS. ...ZENG",
+    "replaces": "WASHINGTON|352010|2026/1177|2026-11-06T19:04:00Z|NORMAL|-|A_LUXX21KNES061904_C_KNES_20261106190608.xml",
     "reportStatus": "NORMAL",
-    "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX21_20261106_1904.xml"
+    "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX21_20261107_0053.xml"
    },
    "cloud": {
     "displayable": true,
-    "displayableUntilUtc": "2026-11-07T00:30:00Z",
+    "displayableUntilUtc": "2026-11-07T06:30:00Z",
     "isEstimated": true,
     "kind": "estimada",
     "layers": [
      {
-      "areaKm2": 109.356,
+      "areaKm2": 237.221,
       "crossesDateline": false,
       "lower": "GND",
       "lowerFL": 0.0,
-      "motionDeg": 225.0,
+      "motionDeg": 270.0,
       "polygon": [
        [
-        -0.067,
-        -77.65
+        -0.017,
+        -77.867
        ],
        [
-        -0.117,
-        -77.834
-       ],
-       [
-        -0.2,
-        -77.783
+        -0.183,
+        -77.867
        ],
        [
         -0.083,
-        -77.667
+        -77.65
        ],
        [
         -0.067,
-        -77.65
+        -77.667
+       ],
+       [
+        -0.017,
+        -77.867
        ]
       ],
       "speedKt": 5.0,
-      "upperFL": 140.0,
+      "upperFL": 150.0,
       "vertices": 4
      }
     ],
-    "observationAgeAtIssueMin": 34,
+    "observationAgeAtIssueMin": 23,
     "positionMeaning": "posicao no horario da observacao, sem extrapolacao",
     "rejectedLayerReasons": [],
     "status": "IDENTIFIABLE",
     "warnings": []
    },
-   "key": "WASHINGTON|352010|2026/1177|2026-11-06T19:04:00Z|NORMAL|-|A_LUXX21KNES061904_C_KNES_20261106190608.xml",
+   "key": "WASHINGTON|352010|2026/1178|2026-11-07T00:53:00Z|NORMAL|-|A_LUXX21KNES070053_C_KNES_20261107005555.xml",
    "volcano": {
     "area": "ECUADOR",
     "gvp": "352010",
@@ -491,60 +396,60 @@
    "advisory": {
     "ashEmissionEndedReported": false,
     "bulletinBBB": null,
-    "bulletinGeneratedUtc": "2026-11-06T15:56:59Z",
-    "bulletinId": "A_LUXX24KNES061555_C_KNES_20261106155659.xml",
+    "bulletinGeneratedUtc": "2026-11-06T21:51:25Z",
+    "bulletinId": "A_LUXX24KNES062150_C_KNES_20261106215125.xml",
     "centre": "WASHINGTON",
-    "eruptionDetailsRaw": "PSBL VA EMS",
-    "expiresAtUtc": "2026-11-07T01:00:00Z",
+    "eruptionDetailsRaw": "LKLY VA CLD OBSD",
+    "expiresAtUtc": "2026-11-07T06:45:00Z",
     "expiryFallback": false,
-    "fetchedUtc": "2026-11-06T21:03:36Z",
+    "fetchedUtc": "2026-11-07T01:11:54Z",
     "forecastsIgnored": 3,
-    "infoSource": "GOES-19. WEBCAM. NWP MODELS.",
-    "issueUtc": "2026-11-06T15:55:00Z",
+    "infoSource": "GOES-19. NWP MODELS.",
+    "issueUtc": "2026-11-06T21:50:00Z",
     "nextAdvisoryNilReason": null,
     "nextAdvisoryQualifier": "before",
     "nextAdvisoryState": "programado",
-    "nextAdvisoryUtc": "2026-11-06T22:00:00Z",
+    "nextAdvisoryUtc": "2026-11-07T03:45:00Z",
     "noFurtherAdvisoryScheduled": false,
-    "number": "2026/768",
-    "observationUtc": "2026-11-06T15:20:00Z",
-    "remarksRaw": "VA EMS NOT OBS IN STLT DUE TO WX CLD CVR. VOLC ACTIVITY PSBLY OBS ON WEBCAM DRNG CLD BRKS. A GEN WSW TO WNW MVMT EXP THRU T+12 ACCORDING TO NWP MDLS. ...EVANS",
-    "replaces": "WASHINGTON|352090|2026/767|2026-11-06T10:35:00Z|NORMAL|-|A_LUXX24KNES061035_C_KNES_20261106103625.xml",
+    "number": "2026/769",
+    "observationUtc": "2026-11-06T21:30:00Z",
+    "remarksRaw": "LKLY STEAM/GAS/VA EM OBSD IN SAT. STEAM/GAS/VA MIXTURE PLUME EXTD APRX 10 NM WSW FM SUMMIT. NWP MDL FCST WINDS FM E THRU T+12HRS. ...ZENG",
+    "replaces": "WASHINGTON|352090|2026/768|2026-11-06T15:55:00Z|NORMAL|-|A_LUXX24KNES061555_C_KNES_20261106155659.xml",
     "reportStatus": "NORMAL",
-    "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX24_20261106_1555.xml"
+    "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX24_20261106_2150.xml"
    },
    "cloud": {
     "displayable": true,
-    "displayableUntilUtc": "2026-11-06T21:20:00Z",
-    "isEstimated": true,
-    "kind": "estimada",
+    "displayableUntilUtc": "2026-11-07T03:30:00Z",
+    "isEstimated": false,
+    "kind": "observada",
     "layers": [
      {
-      "areaKm2": 40.023,
+      "areaKm2": 136.366,
       "crossesDateline": false,
       "lower": "GND",
       "lowerFL": 0.0,
-      "motionDeg": 270.0,
+      "motionDeg": 225.0,
       "polygon": [
        [
-        -2.0,
-        -78.417
+        -1.984,
+        -78.333
        ],
        [
-        -2.067,
-        -78.383
+        -2.033,
+        -78.517
+       ],
+       [
+        -2.117,
+        -78.483
        ],
        [
         -2.017,
         -78.333
        ],
        [
-        -2.0,
+        -1.984,
         -78.333
-       ],
-       [
-        -2.0,
-        -78.417
        ]
       ],
       "speedKt": 5.0,
@@ -552,13 +457,13 @@
       "vertices": 4
      }
     ],
-    "observationAgeAtIssueMin": 35,
+    "observationAgeAtIssueMin": 20,
     "positionMeaning": "posicao no horario da observacao, sem extrapolacao",
     "rejectedLayerReasons": [],
     "status": "IDENTIFIABLE",
     "warnings": []
    },
-   "key": "WASHINGTON|352090|2026/768|2026-11-06T15:55:00Z|NORMAL|-|A_LUXX24KNES061555_C_KNES_20261106155659.xml",
+   "key": "WASHINGTON|352090|2026/769|2026-11-06T21:50:00Z|NORMAL|-|A_LUXX24KNES062150_C_KNES_20261106215125.xml",
    "volcano": {
     "area": "ECUADOR",
     "gvp": "352090",
@@ -582,62 +487,6 @@
   }
  },
  "closed": [
-  {
-   "closedAtUtc": "2026-11-04T22:11:27Z",
-   "issueUtc": "2026-11-04T12:35:00Z",
-   "key": "WASHINGTON|342090|2026/1280|2026-11-04T12:35:00Z|NORMAL|-|A_LUXX22KNES041235_C_KNES_20261104123648.xml",
-   "reason": "expirado",
-   "volcano": "FUEGO 342090",
-   "volcanoKey": "342090"
-  },
-  {
-   "closedAtUtc": "2026-11-04T22:11:27Z",
-   "issueUtc": "2026-11-04T13:22:00Z",
-   "key": "WASHINGTON|351060|2026/702|2026-11-04T13:22:00Z|NORMAL|-|A_LUXX20KNES041322_C_KNES_20261104132345.xml",
-   "reason": "substituido",
-   "volcano": "PURACE 351060",
-   "volcanoKey": "351060"
-  },
-  {
-   "closedAtUtc": "2026-11-04T22:11:27Z",
-   "issueUtc": "2026-11-04T19:03:00Z",
-   "key": "WASHINGTON|351060|2026/703|2026-11-04T19:03:00Z|NORMAL|-|A_LUXX20KNES041903_C_KNES_20261104190515.xml",
-   "reason": "serie_encerrada",
-   "volcano": "PURACE 351060",
-   "volcanoKey": "351060"
-  },
-  {
-   "closedAtUtc": "2026-11-04T22:11:27Z",
-   "issueUtc": "2026-11-04T14:04:00Z",
-   "key": "WASHINGTON|342030|2026/659|2026-11-04T14:04:00Z|NORMAL|-|A_LUXX23KNES041404_C_KNES_20261104140520.xml",
-   "reason": "substituido",
-   "volcano": "SANTA MARIA 342030",
-   "volcanoKey": "342030"
-  },
-  {
-   "closedAtUtc": "2026-11-04T22:11:27Z",
-   "issueUtc": "2026-11-04T14:21:00Z",
-   "key": "WASHINGTON|341090|2026/378|2026-11-04T14:21:00Z|NORMAL|-|A_LUXX25KNES041421_C_KNES_20261104142238.xml",
-   "reason": "substituido",
-   "volcano": "POPOCATEPETL 341090",
-   "volcanoKey": "341090"
-  },
-  {
-   "closedAtUtc": "2026-11-04T22:11:27Z",
-   "issueUtc": "2026-11-04T14:42:00Z",
-   "key": "WASHINGTON|352010|2026/1166|2026-11-04T14:42:00Z|NORMAL|-|A_LUXX21KNES041442_C_KNES_20261104144316.xml",
-   "reason": "substituido",
-   "volcano": "REVENTADOR 352010",
-   "volcanoKey": "352010"
-  },
-  {
-   "closedAtUtc": "2026-11-04T22:11:27Z",
-   "issueUtc": "2026-11-04T15:18:00Z",
-   "key": "WASHINGTON|352090|2026/759|2026-11-04T15:18:00Z|NORMAL|-|A_LUXX24KNES041518_C_KNES_20261104151940.xml",
-   "reason": "substituido",
-   "volcano": "SANGAY 352090",
-   "volcanoKey": "352090"
-  },
   {
    "closedAtUtc": "2026-11-05T02:45:34Z",
    "issueUtc": "2026-11-04T18:26:00Z",
@@ -949,30 +798,70 @@
    "reason": "substituido",
    "volcano": "POPOCATEPETL 341090",
    "volcanoKey": "341090"
+  },
+  {
+   "closedAtUtc": "2026-11-07T01:11:54Z",
+   "issueUtc": "2026-11-06T15:31:00Z",
+   "key": "WASHINGTON|342030|2026/663|2026-11-06T15:31:00Z|NORMAL|-|A_LUXX23KNES061531_C_KNES_20261106153302.xml",
+   "reason": "expirado",
+   "volcano": "SANTA MARIA 342030",
+   "volcanoKey": "342030"
+  },
+  {
+   "closedAtUtc": "2026-11-07T01:11:54Z",
+   "issueUtc": "2026-11-06T15:55:00Z",
+   "key": "WASHINGTON|352090|2026/768|2026-11-06T15:55:00Z|NORMAL|-|A_LUXX24KNES061555_C_KNES_20261106155659.xml",
+   "reason": "expirado",
+   "volcano": "SANGAY 352090",
+   "volcanoKey": "352090"
+  },
+  {
+   "closedAtUtc": "2026-11-07T01:11:54Z",
+   "issueUtc": "2026-11-06T21:10:00Z",
+   "key": "WASHINGTON|342030|2026/664|2026-11-06T21:10:00Z|NORMAL|-|A_LUXX23KNES062110_C_KNES_20261106211158.xml",
+   "reason": "serie_encerrada",
+   "volcano": "SANTA MARIA 342030",
+   "volcanoKey": "342030"
+  },
+  {
+   "closedAtUtc": "2026-11-07T01:11:54Z",
+   "issueUtc": "2026-11-06T17:35:00Z",
+   "key": "WASHINGTON|342090|2026/1289|2026-11-06T17:35:00Z|NORMAL|-|A_LUXX22KNES061735_C_KNES_20261106173838.xml",
+   "reason": "substituido",
+   "volcano": "FUEGO 342090",
+   "volcanoKey": "342090"
+  },
+  {
+   "closedAtUtc": "2026-11-07T01:11:54Z",
+   "issueUtc": "2026-11-06T19:04:00Z",
+   "key": "WASHINGTON|352010|2026/1177|2026-11-06T19:04:00Z|NORMAL|-|A_LUXX21KNES061904_C_KNES_20261106190608.xml",
+   "reason": "substituido",
+   "volcano": "REVENTADOR 352010",
+   "volcanoKey": "352010"
   }
  ],
  "collector": {
   "counts": {
-   "accepted": 8,
-   "active": 6,
-   "closed": 0,
+   "accepted": 4,
+   "active": 5,
+   "closed": 1,
    "conflicts": 0,
-   "downloaded": 8,
+   "downloaded": 4,
    "duplicates": 0,
    "expired": 2,
-   "found": 21,
+   "found": 22,
    "notStartedBudget": 0,
    "older": 0,
    "pendingRetry": 0,
    "rejectedAdvisories": 0,
    "rejectedPermanent": 0
   },
-  "elapsedSeconds": 1.61,
+  "elapsedSeconds": 0.81,
   "error": null,
-  "lastAttemptUtc": "2026-11-06T21:03:36Z",
-  "lastSuccessUtc": "2026-11-06T21:03:36Z",
-  "newestActiveIssueUtc": "2026-11-06T20:44:00Z",
-  "oldestActiveIssueUtc": "2026-11-06T15:31:00Z",
+  "lastAttemptUtc": "2026-11-07T01:11:54Z",
+  "lastSuccessUtc": "2026-11-07T01:11:54Z",
+  "newestActiveIssueUtc": "2026-11-07T00:53:00Z",
+  "oldestActiveIssueUtc": "2026-11-06T20:19:00Z",
   "result": "OK"
  },
  "conflicts": {},
@@ -1000,23 +889,23 @@
   },
   "342030": {
    "bulletinBBB": null,
-   "bulletinGeneratedUtc": "2026-11-06T15:33:02Z",
-   "closing": false,
-   "expiresAtUtc": "2026-11-07T00:30:00Z",
-   "issueUtc": "2026-11-06T15:31:00Z",
-   "key": "WASHINGTON|342030|2026/663|2026-11-06T15:31:00Z|NORMAL|-|A_LUXX23KNES061531_C_KNES_20261106153302.xml",
+   "bulletinGeneratedUtc": "2026-11-06T21:11:58Z",
+   "closing": true,
+   "expiresAtUtc": "2026-11-07T06:10:00Z",
+   "issueUtc": "2026-11-06T21:10:00Z",
+   "key": "WASHINGTON|342030|2026/664|2026-11-06T21:10:00Z|NORMAL|-|A_LUXX23KNES062110_C_KNES_20261106211158.xml",
    "reportStatus": "NORMAL",
-   "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX23_20261106_1531.xml"
+   "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX23_20261106_2110.xml"
   },
   "342090": {
    "bulletinBBB": null,
-   "bulletinGeneratedUtc": "2026-11-06T17:38:38Z",
+   "bulletinGeneratedUtc": "2026-11-06T23:16:59Z",
    "closing": false,
-   "expiresAtUtc": "2026-11-07T02:30:00Z",
-   "issueUtc": "2026-11-06T17:35:00Z",
-   "key": "WASHINGTON|342090|2026/1289|2026-11-06T17:35:00Z|NORMAL|-|A_LUXX22KNES061735_C_KNES_20261106173838.xml",
+   "expiresAtUtc": "2026-11-07T08:15:00Z",
+   "issueUtc": "2026-11-06T23:15:00Z",
+   "key": "WASHINGTON|342090|2026/1290|2026-11-06T23:15:00Z|NORMAL|-|A_LUXX22KNES062315_C_KNES_20261106231659.xml",
    "reportStatus": "NORMAL",
-   "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX22_20261106_1735.xml"
+   "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX22_20261106_2315.xml"
   },
   "344040": {
    "bulletinBBB": null,
@@ -1040,23 +929,23 @@
   },
   "352010": {
    "bulletinBBB": null,
-   "bulletinGeneratedUtc": "2026-11-06T19:06:08Z",
+   "bulletinGeneratedUtc": "2026-11-07T00:55:55Z",
    "closing": false,
-   "expiresAtUtc": "2026-11-07T04:00:00Z",
-   "issueUtc": "2026-11-06T19:04:00Z",
-   "key": "WASHINGTON|352010|2026/1177|2026-11-06T19:04:00Z|NORMAL|-|A_LUXX21KNES061904_C_KNES_20261106190608.xml",
+   "expiresAtUtc": "2026-11-07T10:00:00Z",
+   "issueUtc": "2026-11-07T00:53:00Z",
+   "key": "WASHINGTON|352010|2026/1178|2026-11-07T00:53:00Z|NORMAL|-|A_LUXX21KNES070053_C_KNES_20261107005555.xml",
    "reportStatus": "NORMAL",
-   "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX21_20261106_1904.xml"
+   "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX21_20261107_0053.xml"
   },
   "352090": {
    "bulletinBBB": null,
-   "bulletinGeneratedUtc": "2026-11-06T15:56:59Z",
+   "bulletinGeneratedUtc": "2026-11-06T21:51:25Z",
    "closing": false,
-   "expiresAtUtc": "2026-11-07T01:00:00Z",
-   "issueUtc": "2026-11-06T15:55:00Z",
-   "key": "WASHINGTON|352090|2026/768|2026-11-06T15:55:00Z|NORMAL|-|A_LUXX24KNES061555_C_KNES_20261106155659.xml",
+   "expiresAtUtc": "2026-11-07T06:45:00Z",
+   "issueUtc": "2026-11-06T21:50:00Z",
+   "key": "WASHINGTON|352090|2026/769|2026-11-06T21:50:00Z|NORMAL|-|A_LUXX24KNES062150_C_KNES_20261106215125.xml",
    "reportStatus": "NORMAL",
-   "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX24_20261106_1555.xml"
+   "xmlUrl": "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX24_20261106_2150.xml"
   }
  },
  "pending": {},
@@ -1456,6 +1345,13 @@
    ],
    "result": "lido"
   },
+  "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX21_20261107_0053.xml": {
+   "atUtc": "2026-11-07T01:11:54Z",
+   "keys": [
+    "WASHINGTON|352010|2026/1178|2026-11-07T00:53:00Z|NORMAL|-|A_LUXX21KNES070053_C_KNES_20261107005555.xml"
+   ],
+   "result": "lido"
+  },
   "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX22_20261031_2228.xml": {
    "atUtc": "2026-11-01T20:26:32Z",
    "keys": [
@@ -1631,6 +1527,13 @@
    ],
    "result": "lido"
   },
+  "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX22_20261106_2315.xml": {
+   "atUtc": "2026-11-07T01:11:54Z",
+   "keys": [
+    "WASHINGTON|342090|2026/1290|2026-11-06T23:15:00Z|NORMAL|-|A_LUXX22KNES062315_C_KNES_20261106231659.xml"
+   ],
+   "result": "lido"
+  },
   "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX23_20261031_2259.xml": {
    "atUtc": "2026-11-01T20:26:32Z",
    "keys": [
@@ -1775,6 +1678,13 @@
    "atUtc": "2026-11-06T21:03:36Z",
    "keys": [
     "WASHINGTON|342030|2026/663|2026-11-06T15:31:00Z|NORMAL|-|A_LUXX23KNES061531_C_KNES_20261106153302.xml"
+   ],
+   "result": "lido"
+  },
+  "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX23_20261106_2110.xml": {
+   "atUtc": "2026-11-07T01:11:54Z",
+   "keys": [
+    "WASHINGTON|342030|2026/664|2026-11-06T21:10:00Z|NORMAL|-|A_LUXX23KNES062110_C_KNES_20261106211158.xml"
    ],
    "result": "lido"
   },
@@ -1964,6 +1874,13 @@
    "atUtc": "2026-11-06T21:03:36Z",
    "keys": [
     "WASHINGTON|352090|2026/768|2026-11-06T15:55:00Z|NORMAL|-|A_LUXX24KNES061555_C_KNES_20261106155659.xml"
+   ],
+   "result": "lido"
+  },
+  "https://prod-east-goes.woc.noaa.gov/products/atmosphere/vaac/volcanoes/xml_files/FVXX24_20261106_2150.xml": {
+   "atUtc": "2026-11-07T01:11:54Z",
+   "keys": [
+    "WASHINGTON|352090|2026/769|2026-11-06T21:50:00Z|NORMAL|-|A_LUXX24KNES062150_C_KNES_20261106215125.xml"
    ],
    "result": "lido"
   },
